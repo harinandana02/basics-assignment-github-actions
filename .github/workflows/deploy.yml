@@ -13,4 +13,4 @@ jobs:
             - name: Install dependencies
               run: npm ci
             - name: Perform lint
-              run: eslint --ext .jsx --fix src
+              run: npm run lint
